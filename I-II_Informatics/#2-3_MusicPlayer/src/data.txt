@@ -1,0 +1,10 @@
+1 mp3 name1 trackFileBytes
+2 mp3 name2 trackFileBytes
+3 mp3 name3 trackFileBytes
+4 mp3 name4 trackFileBytes
+5 mp3 name5 trackFileBytes
+6 wav name6 trackFileBytes
+7 wav name7 trackFileBytes
+8 wav name8 trackFileBytes
+9 flaac name9 trackFileBytes
+0

@@ -1,0 +1,4 @@
+1) JFRAME f  = newJFRAME ("Title"0;
+2)f.setDefaultClouseOperation -->(JFrame.EXIT_ON_CLOSE);
+3*)f.getContentPanel().add
+borderlay, floatlay, borderlay -знать

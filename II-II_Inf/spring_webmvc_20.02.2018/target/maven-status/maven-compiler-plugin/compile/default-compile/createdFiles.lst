@@ -1,0 +1,9 @@
+ru\kpfu\springwebmvc\repositories\interfaces\BookRepository.class
+ru\kpfu\springwebmvc\config\DBConfig.class
+ru\kpfu\springwebmvc\controllers\DefaultController.class
+ru\kpfu\springwebmvc\models\Book.class
+ru\kpfu\springwebmvc\repositories\implementations\BookRepositoryImpl.class
+ru\kpfu\springwebmvc\config\WebInitializer.class
+ru\kpfu\springwebmvc\services\interfaces\BookService.class
+ru\kpfu\springwebmvc\services\implementations\BookServiceImpl.class
+ru\kpfu\springwebmvc\config\WebConfig.class

@@ -1,0 +1,9 @@
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\config\WebInitializer.java
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\controllers\DefaultController.java
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\config\DBConfig.java
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\repositories\interfaces\BookRepository.java
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\services\implementations\BookServiceImpl.java
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\models\Book.java
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\config\WebConfig.java
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\repositories\implementations\BookRepositoryImpl.java
+A:\Univ\spring_webmvc_and_beans_task\src\main\java\ru\kpfu\springwebmvc\services\interfaces\BookService.java

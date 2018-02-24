@@ -35,6 +35,7 @@ public class JavaConfigMain {
                 Eur eur = (Eur) context.getBean("Eur");
                 System.out.println(eur.convert(money));
                 break;
+
             case "Usd":
                 Usd usd = (Usd) context.getBean("Usd");
                 System.out.println(usd.convert(money));

@@ -2,11 +2,16 @@ package ru.kpfu.springwebmvc.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import ru.kpfu.springwebmvc.models.Book;
 import ru.kpfu.springwebmvc.services.implementations.BookServiceImpl;
 import ru.kpfu.springwebmvc.services.interfaces.BookService;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
 
 /**
  * 
@@ -44,4 +49,15 @@ public class DefaultController {
   public String getComplexMessage(){
     return this.bookService.getBookById(2L).toString();
   }
+
+  @RequestMapping("/calc")
+  @ResponseBody
+  public String requestParam(@RequestParam String x,@RequestParam String y, @RequestParam String o) {
+    if ("sum".equals(o)){
+      return x + y;
+    } else {
+      return "Operation is incorrect";
+    }
+  }
+
 }

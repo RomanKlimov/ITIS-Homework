@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import ru.kpfu.springwebmvc.models.Book;
@@ -31,23 +32,25 @@ public class DefaultController {
     this.bookService = bookService;
   }
 
-  @RequestMapping("/getStaticBook")
-  @ResponseBody
-  public String getSimpleMessage(){
+  @RequestMapping(value = "/getStaticBook", method = RequestMethod.GET)
+
+  public String getSimpleMessage(ModelMap map){
 
     Book book = new Book();
     book.setName("Harry Potter");
     book.setAuthor("Rolling");
+    map.put("name", book.getName());
 
 
-    return book.toString();
+    return "index";
 
   }
 
-  @RequestMapping("/getBookFromDB")
-  @ResponseBody
-  public String getComplexMessage(){
-    return this.bookService.getBookById(2L).toString();
+  @RequestMapping(value = "/getBookFromDB", method = RequestMethod.GET)
+
+  public String getComplexMessage(ModelMap map){
+      map.put("name", this.bookService.getBookById(2L).toString());
+      return "index";
   }
 
   @RequestMapping("/calc")

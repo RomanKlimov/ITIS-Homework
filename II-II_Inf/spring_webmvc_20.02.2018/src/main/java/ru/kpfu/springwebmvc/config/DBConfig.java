@@ -18,7 +18,7 @@ public class DBConfig {
     private Environment environment;
 
     @Bean(name = "JDBC")
-    @Profile("live")
+
     public DataSource dataSource(){
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
 

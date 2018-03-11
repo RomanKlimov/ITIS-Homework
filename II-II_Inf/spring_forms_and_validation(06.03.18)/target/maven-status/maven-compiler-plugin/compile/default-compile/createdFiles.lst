@@ -1,0 +1,11 @@
+ru\kpfu\formsvalidation\controller\SpringController.class
+ru\kpfu\formsvalidation\config\WebConfig.class
+ru\kpfu\formsvalidation\controller\Jsr303Controller.class
+ru\kpfu\formsvalidation\controller\UserController.class
+ru\kpfu\formsvalidation\model\AuthorValidator.class
+ru\kpfu\formsvalidation\config\RootConfig.class
+ru\kpfu\formsvalidation\config\WebInitializer.class
+ru\kpfu\formsvalidation\model\User.class
+ru\kpfu\formsvalidation\model\UserValidator.class
+ru\kpfu\formsvalidation\model\Author.class
+ru\kpfu\formsvalidation\model\Book.class

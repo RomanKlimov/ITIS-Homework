@@ -1,5 +1,6 @@
 package ru.kpfu.springwebmvc.config;
 
+import org.jtwig.spring.JtwigViewResolver;
 import org.springframework.beans.BeansException;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
@@ -40,5 +41,12 @@ public class WebConfig implements ApplicationContextAware {
         resolver.setViewClass(JstlView.class);
         resolver.setRedirectContextRelative(false);
         return resolver;
+    }
+    @Bean
+    public ViewResolver viewResolver2 () {
+        JtwigViewResolver viewResolver = new JtwigViewResolver();
+        viewResolver.setPrefix("webapp/WEB-INF/jtwig/");
+        viewResolver.setSuffix(".twig.html");
+        return viewResolver;
     }
 }

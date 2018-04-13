@@ -1,0 +1,5 @@
+ru\itis\security\controller\AppController.class
+ru\itis\security\config\SecurityInit.class
+ru\itis\security\config\AppSecurityConfig.class
+ru\itis\security\config\WebInitializer.class
+ru\itis\security\config\WebConfig.class

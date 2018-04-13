@@ -7,9 +7,6 @@ import org.springframework.validation.Validator;
 
 import java.util.regex.Pattern;
 
-/**
- * Created by Roman on 11.03.2018.
- */
 @Component
 public class UserValidator implements Validator {
 

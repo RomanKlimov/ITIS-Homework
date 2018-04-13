@@ -17,9 +17,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import ru.kpfu.formsvalidation.model.User;
 import ru.kpfu.formsvalidation.model.UserValidator;
 
-/**
- * Created by Roman on 11.03.2018.
- */
 @Controller
 public class UserController {
 
